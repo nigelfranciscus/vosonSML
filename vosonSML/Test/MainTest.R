@@ -1,6 +1,6 @@
+# Template for testing purposes
+
 require(devtools)
-
-
 install_github("nigelfranciscus/vosonSML", subdir = "vosonSML")
 
 require(vosonSML)
@@ -25,8 +25,3 @@ myTwitterData <- Authenticate("twitter",
           writeToFile=TRUE,verbose=TRUE)
 
 View(testTweet)
-<<<<<<< HEAD
-
-# writeToFile is passing
-=======
->>>>>>> 263e9bd57a6783e66ec099f3032c559103759a3f
